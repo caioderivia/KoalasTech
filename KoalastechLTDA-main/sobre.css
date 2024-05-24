@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url("Icones/BackgroundLucca.jpg");
+    background-size: 100%; 
+    background-position: right center;
+}
+header{
+    background: rgb(17, 17, 17);
+    height: 140px;
+}
+header h1{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    border: 2px solid rgb(0, 9, 139);
+    text-shadow: 
+        -1px -1px 0 #001affb7,  
+         1px -1px 0 #001affb7,
+        -1px  1px 0 #001affb7,
+         1px  1px 0 #001affb7;
+}
+
+nav{
+    margin-top: 10px;
+    background-color: black;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 40px;
+    background-color: black;
+}
+main{
+    margin-top: 50px;
+}
+
+section{
+    
+    margin-left: 350px;
+    margin-right: 350px;
+    background: black;
+    height: 1000;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+section h2{
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+section p{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+header img{
+    width: 100px;
+    margin-top: 5px;
+}

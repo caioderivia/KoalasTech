@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celulares</title>
+    <link rel="stylesheet" href="celulares.css">
+</head>
+<body>
+    <header>
+        <h1> <img src="Icones/logoempresa.png" alt="logoempresa"> KoalasTech</h1>
+        <nav>
+            <a href="index.html">Pagina inicial</a>
+            <a>|</a>
+            <a href="sobre.html">Sobre</a>
+            <a>|</a>
+            <a href="login.html">Login e Registro</a>
+            <a>|</a>
+            <a href="celulares.html">Celulares</a>
+            <a>|</a>
+            <a href="monitores.html">Monitores</a>
+            <a>|</a>
+            <a href="processadores.html">Processadores</a>
+            <a>|</a>
+            <a href="teclados.html">Teclados</a>
+            <a id="carrinho-icon"><img src="Icones/Carrinho.jpg" alt="Carrinho de Compras"><span id="carrinho-count">0</span></a>
+        </nav>
+    </header>
+    <br>
+    <p id="aviso">Temos o celular certo para você!</p>
+    <main>
+        <section class="s1">
+            <h3>Apple</h3> 
+            <div>
+                <img src="Assets/apple12.jpg" alt="">
+                <h4>Apple iPhone 12 (64 Gb) - Azul</h4>
+                <button class="botao" data-produto="Apple iPhone 12 (64 Gb) - Azul" data-preco="1000.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/apple 13.webp" alt="">
+                <h4>Apple iPhone 13 (128 GB) - Estelar</h4>
+                <button class="botao" data-produto="Apple iPhone 13 (128 GB) - Estelar" data-preco="1200.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/apple 11.jpg" alt="">
+                <h4>iPhone 11 (64 GB)-  RED</h4>
+                <button class="botao" data-produto="iPhone 11 (64 GB)-  RED" data-preco="900.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/apple 12 2.jpg" alt="">
+                <h4>Apple iPhone 12 (128 GB) - Branco</h4>
+                <button class="botao" data-produto="Apple iPhone 12 (128 GB) - Branco" data-preco="1100.00">Adicionar</button>
+            </div>
+        </section>
+        <section class="s1">
+            <h3>Samsung</h3>  
+            <div>
+                <img src="assets/sang 1.jpg" alt="">
+                <h4>Samsung Galaxy S23 FE</h4>
+                <button class="botao" data-produto="Samsung Galaxy S23 FE" data-preco="800.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/sang 2.jpg" alt="">
+                <h4>Samsung Galaxy S21 FE</h4>
+                <button class="botao" data-produto="Samsung Galaxy S21 FE" data-preco="750.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/sang 3.jpg" alt="">
+                <h4>Smartphone Samsung Galaxy A54</h4>
+                <button class="botao" data-produto="Smartphone Samsung Galaxy A54" data-preco="600.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/sang 4.jpg" alt="">
+                <h4>Samsung Galaxy A05</h4>
+                <button class="botao" data-produto="Samsung Galaxy A05" data-preco="500.00">Adicionar</button>
+            </div>
+        </section>
+        <section class="s1">
+            <h3>Xiaomi</h3>  
+            <div>
+                <img src="assets/x1.jpg" alt="">
+                <h4>Xiaomi Redmi Note 12</h4>
+                <button class="botao" data-produto="Xiaomi Redmi Note 12" data-preco="400.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/x2.jpg" alt="">
+                <h4>Xiaomi Redmi Note 13</h4>
+                <button class="botao" data-produto="Xiaomi Redmi Note 13" data-preco="450.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/x3.jpg" alt="">
+                <h4>Xiaomi POCO C65</h4>
+                <button class="botao" data-produto="Xiaomi POCO C65" data-preco="350.00">Adicionar</button>
+            </div>
+            <div>
+                <img src="assets/x4.jpg" alt="">
+                <h4>Xiaomi Redmi 12C</h4>
+                <button class="botao" data-produto="Xiaomi Redmi 12C" data-preco="300.00">Adicionar</button>
+            </div>
+        </section>
+    </main>
+    <h2>Carrinho de Compras</h2>
+    <ul id="carrinho">
+    </ul>
+    <p>Total de itens: <span id="totalItens">0</span></p>
+    <p>Total: R$<span id="total">0.00</span></p>
+
+    <script src="celulares.js"></script>
+</body>
+</html>

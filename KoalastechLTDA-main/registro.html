@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koalas Tech - Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <header>
+        <h1>Koalas Tech</h1>
+        <nav>
+            <a href="index.html">Pagina inicial</a>
+            <a>|</a>
+            <a href="sobre.html">Sobre</a>
+            <a>|</a>
+            <a href="login.html">Login e Registro</a>
+            <a>|</a>
+            <a href="celulares.html">Celulares</a>
+            <a>|</a>
+            <a href="monitores.html">Monitores</a>
+            <a>|</a>
+            <a href="processadores.html">Processadores</a>
+            <a>|</a>
+            <a href="teclados.html">Teclados</a>
+        </nav>
+    </header>
+    <main>
+        <div class="register-container">
+            <h2>Registro</h2>
+            <form action="php/registro.php" method="post">
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="confirm-password">Confirme a Senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <button type="submit">Registrar</button>
+                <p class="login-link">Já tem uma conta? <a href="login.html">Faça login</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

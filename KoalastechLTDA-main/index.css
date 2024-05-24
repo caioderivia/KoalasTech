@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url("Icones/BackgroundLucca.jpg");
+    background-size: 100%; 
+    background-position:center;
+}
+header{
+    background: rgb(17, 17, 17);
+    height: 140px;
+}
+header h1{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    border: 2px solid rgb(0, 9, 139);
+    text-shadow: 
+        -1px -1px 0 #001affb7,  
+         1px -1px 0 #001affb7,
+        -1px  1px 0 #001affb7,
+         1px  1px 0 #001affb7;
+}
+
+nav{
+    margin-top: 15px;
+    background-color: black;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 50px;
+    background-color: black;
+}
+main{
+    margin-top: 50px;
+}
+
+#celulares{
+    background: black;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    position: relative;
+    bottom: 48px;
+    margin-left: 20px;
+}
+#menores{
+    display: inline-block;
+    margin-left: 100px;
+}
+#processadores{
+    background: black;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    bottom: 20px;
+    width: 280px;
+    height: 280px;
+}
+
+#monitores{
+    background: black;
+    border-radius: 10px;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    width: 280px;
+    height: 280px;
+}
+
+#teclados {
+    background: black;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    height: 280px;
+    width: 568px;
+}
+
+#teclados img{
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+
+#celulares img{
+    width: 500px;
+
+}
+
+#monitores img{
+    width: 200px;
+    margin-left: 40px;
+    background-color: white;
+   
+}
+
+
+#processadores img{
+    width: 200px; 
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+main a{
+    border-radius: 10px;
+}
+
+main a:hover{
+    border-radius: 10px;
+    border: 1px solid rgb(92, 92, 92);
+}
+#aviso{
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: "Exo", sans-serif;
+    margin-left: 780px;
+    width: 440px;
+    background: black ;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.container {
+    max-width: 300px; /* Define a largura máxima da seção */
+    margin: 25px auto; /* Centraliza a seção na página */
+    margin-top: 30px;
+}
+
+.container img {
+    max-width: 25%; /* Define a largura máxima da imagem como 100% da largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 60px;
+}
+
+header img{
+    width: 100px;
+    margin-top: 5px;
+}
